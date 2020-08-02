@@ -1,0 +1,27 @@
+{
+  "name": "google_drive",
+  "version": "1.0.0",
+  "description": "managing google drive via node js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguraan/google_drive.git"
+  },
+  "author": "aguraan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aguraan/google_drive/issues"
+  },
+  "homepage": "https://github.com/aguraan/google_drive#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
